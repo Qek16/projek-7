@@ -5,17 +5,24 @@
  */
 package qek;
 
+import java.util.Scanner;
+
 /**
  *
  * @author USER
  */
-public class Qek {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
+public class Qek {public static void main(String[]args){
+    Scanner input= new Scanner(System.in);
+        int umur;
+        
+System.out.print("Masukkan umur anda hari ini: ");
+umur=input.nextInt();
     
+if(umur <= 45){
+        System.out.println("ANDA MASIH MUDA DAN CANTIK");
+
+}else{
+        System.out.println("ANDA SUDAH TUA DAN PERLUKAN REHAT");
+}
+    }
 }
